@@ -7,6 +7,26 @@
     <title>Manage Landing Page</title>
 </head>
 <body>
-    <h1 class="text-blue-400">Hello Tailwind</h1>
+    <!-- Navbar -->
+    <nav class="relative container mx-auto p-6">
+        <!-- Flex container -->
+        <div class="flex items-center justify-between">
+            <!-- logo -->
+            <div class="pt-2">
+                <img src="img/logo.svg" alt="">
+            </div>
+            <!-- Menu Items -->
+            <div class="md:flex hidden space-x-6">
+                <a href="" class="hover:text-darkGrayishBlue">Pricing</a>
+                <a href=""class="hover:text-darkGrayishBlue">product</a>
+                <a href=""class="hover:text-darkGrayishBlue">About Us</a>
+                <a href=""class="hover:text-darkGrayishBlue">Careers</a>
+                <a href=""class="hover:text-darkGrayishBlue">community</a>
+            </div>
+            <!-- button -->
+            <a href="" class="hidden md:block p-3 px-6 pt-2 text-white bg-brightRed rounded-full 
+            baseline hover:bg-brightRedLight">Get Started</a>
+        </div>
+    </nav>
 </body>
 </html>
